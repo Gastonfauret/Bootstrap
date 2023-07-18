@@ -1,0 +1,9 @@
+* {
+    background-color: #e4fbfb;
+}
+
+body,
+html {
+    display: flex;
+    justify-content: center;
+}
