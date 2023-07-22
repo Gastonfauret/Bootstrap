@@ -45,16 +45,16 @@
                 </a>
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                        <a class="nav-link active" aria-current="page" href="#sobre-mi">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#proyectos">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Testimonies</a>
+                        <a class="nav-link" href="#testimonios">Testimonies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Contact</a>
+                        <a class="nav-link" href="#contacto">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -87,7 +87,7 @@
     </section>
 
     <!-- Seccion About Me -->
-    <section class="sobre-mi seccion-oscura">
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
         <div class="contenedor">
             <h2 class="seccion-titulo">Know more about me</h2>
             <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo turpis
@@ -151,7 +151,7 @@
     </section>
 
     <!-- Proyectos -->
-    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
         <h2 class="seccion-titulo texto-negro">Mis Proyectos recientes</h2>
         <h3 class="seccion-description">Estos son algunos de los proyectos que he creado recientemente...</h3>
 
@@ -435,14 +435,186 @@
                 <i class="bi bi-arrow-right-circle-fill"></i>
             </button>
         </a>
+    </section>
+
+    <!-- Articulos -->
+
+    <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Articulos</h2>
+        <div class="card">
+            <div class="card-header">
+                Mas recientes
+            </div>
+
+            <ul class="list-group list-group-flush">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Pagina de Github - Como acceder, y como crear tu primer repo sin morir
+                        en el intento</li>
+                </a>
+                <a href="https://github.com/Gastonfauret" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">@gastonfauret ese pelado que programa, vida y obra de un pelado random.
+                    </li>
+                </a>
+                <a href="https://github.com/Gastonfauret/Pagina-Web-Gula" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Gula una App en Crecimiento, Inicios y evolucion de la app de pedidos de
+                        comida</li>
+                </a>
+                <a href="https://github.com/Gastonfauret/Pagina-Web-Gula" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Lo nuevos repositories que no te debes perder de este 2023 del mundo IT
+                    </li>
+                </a>
+                <a href="https://github.com/Gastonfauret/Pagina-Web-Gula" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Que se necesita para estudiar programacion? Donde comenzar a hacerlo y
+                        cuanto gastar</li>
+                </a>
+                <a href="https://github.com/Gastonfauret/Pagina-Web-Gula" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Recorrido al nuevo edificio de globant en Tandil de la mano de su CEO y
+                        fundador</li>
+                </a>
+            </ul>
+        </div>
+
+        <a href="https://github.com/Gastonfauret?tab=repositories" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver mas articulos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
 
     </section>
+
+    <!-- Seccion de Testimonios -->
+    <!-- Carousel -->
+
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de clientes y compañeros</h3>
+
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="./images/calo.jpg" alt="Calo Profile Photo">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum rutrum tellus, et aliquet sem facilisis eget. Sed nec rhoncus ex, et pellentesque libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed libero ut sapien luctus molestie quis et ipsum.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Adrian Calo</p>
+                            <p class="cargo">Full stack Developer en Gula Developers Team</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 1 -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="./images/cardenas.jpg" alt="Calo Profile Photo">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum rutrum tellus, et aliquet sem facilisis eget. Sed nec rhoncus ex, et pellentesque libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed libero ut sapien luctus molestie quis et ipsum.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Tomas Cardenas</p>
+                            <p class="cargo">Backend Developer en Gula Developers Team</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 2 -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="./images/mili.jpg" alt="Calo Profile Photo">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum rutrum tellus, et aliquet sem facilisis eget. Sed nec rhoncus ex, et pellentesque libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed libero ut sapien luctus molestie quis et ipsum.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Milagros Aguilar</p>
+                            <p class="cargo">Project Manager en Gula Developers Team</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 3 -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="./images/ramos.jpg" alt="Calo Profile Photo">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum rutrum tellus, et aliquet sem facilisis eget. Sed nec rhoncus ex, et pellentesque libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed libero ut sapien luctus molestie quis et ipsum.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Marcelo Ramos</p>
+                            <p class="cargo">Project Manager en Gula Developers Team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">     
+                        Hablemos!                   
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contactame para iniciar tu proyecto de desarrollo web y hare que tu vision se haga realidad
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto: Gastonfauret@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope"></i>
+                            </button>
+                        </a>
+                        <a href="https://wa.me/5492281595799">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-whatsapp"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer, Copyright y Redes Sociales -->
+
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="./icon/target.svg" alt="Logo de Portfolio">
+        <p class="footer-texto text-center">Aprendo y creo todos los dias. <br>Creemos un proyecto juntos.</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/Gastaf" target="_blank" rel="noopener noreffer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/gastonfauret/" target="_blank" rel="noopener noreffer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gaston-fauret/" target="_blank" rel="noopener noreffer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto: gastonfauret@gmail.com" target="_blank" rel="noopener noreffer">
+                <i class="bi bi-envelope"></i>
+            </a>
+            <a href="https://wa.me/5492281595799" target="_blank" rel="noopener noreffer">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://github.com/Gastonfauret" target="_blank" rel="noopener noreffer">
+                <i class="bi bi-github"></i>
+            </a>
+        </div>
+        <div class="copyright">Creado por Gaston Fauret (2023) &#169;</div>
+    </footer>
 
     <!-- Archivo Bootstrap Js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
         </script>
-
 </body>
-
 </html>
